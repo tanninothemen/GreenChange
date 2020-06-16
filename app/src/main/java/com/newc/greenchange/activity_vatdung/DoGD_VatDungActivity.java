@@ -1,4 +1,4 @@
-package com.newc.greenchange.activity_vatdung;
+﻿package com.newc.greenchange.activity_vatdung;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -40,6 +40,7 @@ import java.util.Map;
 
 public class DoGD_VatDungActivity extends AppCompatActivity {
 
+//Nguyễn Thành Tân
     Toolbar toolbarDoGD;
     ListView lvVatDungDoGD;
     VatDung_DoGD_Adapter doGD_adapter;

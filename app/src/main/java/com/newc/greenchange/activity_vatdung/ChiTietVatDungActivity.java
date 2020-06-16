@@ -1,4 +1,4 @@
-package com.newc.greenchange.activity_vatdung;
+﻿package com.newc.greenchange.activity_vatdung;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -37,6 +37,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ChiTietVatDungActivity extends AppCompatActivity{
+// Nguyễn Thành Tân
 
     Toolbar toolbarChiTietVatDung;
     ImageView imgChiTietVatDung;

@@ -1,4 +1,4 @@
-package com.newc.greenchange.activity_vatdung;
+﻿package com.newc.greenchange.activity_vatdung;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -39,6 +39,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DuLich_VatDungActivity extends AppCompatActivity {
+//Nguyễn Thành Tân
+
     Toolbar toolbarDuLich;
     ListView lvVatDungDuLich;
     VatDung_DuLich_Adapter duLich_adapter;
