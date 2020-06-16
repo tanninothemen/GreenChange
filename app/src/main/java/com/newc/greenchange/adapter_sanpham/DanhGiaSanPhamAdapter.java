@@ -1,4 +1,4 @@
-package com.newc.greenchange.adapter_sanpham;
+﻿package com.newc.greenchange.adapter_sanpham;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -17,6 +17,7 @@ import org.w3c.dom.Text;
 import java.util.List;
 
 public class DanhGiaSanPhamAdapter extends BaseAdapter {
+//Nguyễn Thành Quang
     private Context context;
     private int layout;
     private List<DanhGia> danhGiaList;
