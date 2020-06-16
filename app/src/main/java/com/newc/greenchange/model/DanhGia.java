@@ -1,6 +1,7 @@
 package com.newc.greenchange.model;
 
 public class DanhGia {
+//Nguyễn Hoàng Chương
     private int idtaikhoan;
     private int idsanpham;
     private String noidungdanhgia;
