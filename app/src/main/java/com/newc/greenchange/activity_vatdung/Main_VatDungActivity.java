@@ -1,4 +1,4 @@
-package com.newc.greenchange.activity_vatdung;
+﻿package com.newc.greenchange.activity_vatdung;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -44,6 +44,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class Main_VatDungActivity extends AppCompatActivity {
+//Nguyễn Thành Tân
 
     //Biến toàn cục
     DrawerLayout drawerLayout;
