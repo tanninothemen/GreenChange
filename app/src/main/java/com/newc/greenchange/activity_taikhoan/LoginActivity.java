@@ -1,4 +1,4 @@
-package com.newc.greenchange.activity_taikhoan;
+﻿package com.newc.greenchange.activity_taikhoan;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -33,7 +33,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
-//Lê Nhật Duy
+//Lê Nhật Duy - Đăng ký đăng nhập
     //Biến toàn cục
     ImageButton ibtnLogin, ibtnSignup;
     EditText edtTaiKhoan, edtMatKhau;
