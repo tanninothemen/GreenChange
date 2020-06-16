@@ -3,6 +3,7 @@ package com.newc.greenchange.model;
 import java.io.Serializable;
 
 public class VatDung implements Serializable {
+//Nguyễn Hoàng Chương
     private int IDVatDung;
     private String TenVatDung;
     private String HinhAnhVatDung;

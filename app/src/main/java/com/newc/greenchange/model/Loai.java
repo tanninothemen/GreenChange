@@ -1,6 +1,7 @@
 package com.newc.greenchange.model;
 
 public class Loai {
+//Nguyễn Hoàng Chương
     private int maloai;
     private String tenloai;
     private String hinhanhloai;
