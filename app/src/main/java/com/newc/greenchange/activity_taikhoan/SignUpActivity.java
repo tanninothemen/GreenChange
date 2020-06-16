@@ -23,6 +23,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SignUpActivity extends AppCompatActivity implements View.OnClickListener {
+//Lê Nhật Duy
     //Biến toàn cục
     EditText edtNhapTaiKhoan, edtNhapMatKhau, edtNhapLaiMatKhau;
     Button btnTaoTaiKhoan, btnQuayLaiDangNhap;

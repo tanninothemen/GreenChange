@@ -13,6 +13,7 @@ import com.newc.greenchange.R;
 import com.newc.greenchange.model.TaiKhoan;
 
 public class ThongTinTaiKhoanActivity extends AppCompatActivity {
+//Lê Nhật Duy
     TextView txtTenTaiKhoan, txtMatKhau, txtHoTen, txtNgaySinh,
                 txtSoDT, txtEmail, txtTinhTP;
     Button btnChinhSuaThongTin, btnQuayLai;

@@ -31,6 +31,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ChinhSuaThongTinActivity extends AppCompatActivity {
+//Lê Nhật Duy
 
     EditText edtTaiKhoanUpdate, edtMatKhauUpdate, edtHoTenUpdate,
                 edtNgaySinhUpdate, edtSoDTUpdate, edtEmailUpdate,

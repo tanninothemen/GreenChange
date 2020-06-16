@@ -33,6 +33,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+//Lê Nhật Duy
     //Biến toàn cục
     ImageButton ibtnLogin, ibtnSignup;
     EditText edtTaiKhoan, edtMatKhau;
