@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_vatdung.SucKhoe_VatDungActivity">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Sức khỏe"
+        android:background="@color/color_vatdung_toolbar"
+        app:titleTextColor="#fff"
+        android:id="@+id/toolbarVDSucKhoe"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/listViewVDSucKhoe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

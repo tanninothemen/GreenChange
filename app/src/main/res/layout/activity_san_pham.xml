@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_sanpham.Main_SanPhamActivity">
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayoutSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/color_sanpham_background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarSanPham"
+                android:background="@color/color_sanpham_toolbar"
+                app:title="Sản phẩm"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/imageButtonHienThiVatDung"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_funiture"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <GridView
+                android:horizontalSpacing="8dp"
+                android:verticalSpacing="8dp"
+                android:layout_margin="8dp"
+                android:numColumns="2"
+                android:id="@+id/gridViewSanPham"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></GridView>
+
+        </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationViewSanPham"
+            android:layout_gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/listViewManHinhSanPham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+
+</android.support.constraint.ConstraintLayout>

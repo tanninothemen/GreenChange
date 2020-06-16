@@ -1,0 +1,4 @@
+#Sat Dec 21 00:11:44 ICT 2019
+base.0=D\:\\Do an chuyen nganh\\DoAnChuyenNganh\\16DTHB3_1611060822_PhanMemGoiYThayTheVatDungCoHaiMoiTruong\\GreenChange\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

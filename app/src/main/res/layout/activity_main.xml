@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_vatdung.Main_VatDungActivity">
+    
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:background="@color/color_vatdung_background"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.Toolbar
+                app:titleTextColor="@color/color_vatdung_text"
+                android:id="@+id/toolbarTrangChu"
+                android:background="@color/color_vatdung_toolbar"
+                app:title="@string/text_vatdung_toolbarName"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/imageButtonHienThiSanPham"
+                    android:layout_weight="1"
+                    android:src="@drawable/icons_products"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <GridView
+                android:horizontalSpacing="8dp"
+                android:verticalSpacing="8dp"
+                android:layout_margin="8dp"
+                android:numColumns="2"
+                android:id="@+id/gridViewVatDung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></GridView>
+
+            </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationView"
+            android:layout_gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ListView
+                android:id="@+id/listViewManHinhChinh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></ListView>
+        </android.support.design.widget.NavigationView>
+    </android.support.v4.widget.DrawerLayout>
+</android.support.constraint.ConstraintLayout>

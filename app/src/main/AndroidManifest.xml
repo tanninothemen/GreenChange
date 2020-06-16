@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.newc.greenchange">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_taikhoan.ChinhSuaThongTinActivity"></activity>
+        <activity android:name=".activity_taikhoan.ThongTinTaiKhoanActivity" />
+        <activity android:name=".activity_sanpham.TreEm_SanPhamActivity" />
+        <activity android:name=".activity_sanpham.SucKhoe_SanPhamActivity" />
+        <activity android:name=".activity_sanpham.PhongTam_SanPhamActivity" />
+        <activity android:name=".activity_sanpham.DuLich_SanPhamActivity" />
+        <activity android:name=".activity_sanpham.NhaBep_SanPhamActivity" />
+        <activity android:name=".activity_sanpham.DoGD_SanPhamActivity" />
+        <activity android:name=".activity_vatdung.ChiTietVatDungActivity" />
+        <activity android:name=".activity_sanpham.ChiTietSanPhamActivity" />
+        <activity android:name=".activity_vatdung.TreEm_VatDungActivity" />
+        <activity android:name=".activity_vatdung.SucKhoe_VatDungActivity" />
+        <activity android:name=".activity_vatdung.DuLich_VatDungActivity" />
+        <activity android:name=".activity_vatdung.PhongTam_VatDungActivity" />
+        <activity android:name=".activity_vatdung.NhaBep_VatDungActivity" />
+        <activity android:name=".activity_vatdung.DoGD_VatDungActivity" />
+        <activity android:name=".activity_sanpham.Main_SanPhamActivity" />
+        <activity android:name=".activity_taikhoan.SignUpActivity" />
+        <activity android:name=".activity_taikhoan.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_vatdung.Main_VatDungActivity" />
+    </application>
+
+</manifest>

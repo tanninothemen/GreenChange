@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/color_sanpham_background">
+
+    <TextView
+        android:textColor="@color/color_sanpham_text"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đánh giá sản phẩm"/>
+    <EditText
+        android:textColor="@color/color_sanpham_text"
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTextDanhGia"
+        android:hint="Nhập đánh giá của bạn về sản phẩm này"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonXacNhanDanhGia"
+            android:layout_margin="8dp"
+            android:text="Đánh giá"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/buttonHuyDanhGia"
+            android:layout_margin="8dp"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

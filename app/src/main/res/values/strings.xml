@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GreenChange</string>
+    <string name="tennhabep">Nhà bếp</string>
+    <string name="tendogiadung">Đồ gia dụng</string>
+    <string name="tendulich">Du Lịch</string>
+    <string name="tenphongtam">Phòng tắm</string>
+    <string name="tensuckhoe">Sức Khỏe</string>
+    <string name="tentreem">Trẻ Em</string>
+    <string name="text_login">Đăng Nhập</string>
+    <string name="textnhaptentaikhoan">Nhập tên tài khoản</string>
+    <string name="textnhapmatkhau">Nhập mật khẩu</string>
+    <string name="tenbuttondangky">Đăng Ký</string>
+    <string name="tenbuttonquaylaidangnhap">Quay lại đăng nhập</string>
+    <string name="text_signup_nhaptaikhoan">Nhập tên tài khoản</string>
+    <string name="text_signup_nhapmatkhau">Nhập mật khẩu</string>
+    <string name="text_signup_nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="text_chitietsp_toolbar">Chi tiết sản phẩm</string>
+    <string name="text_vatdung_toolbarName">Vật dụng</string>
+    <string name="thongtintaikhoan">Thông tin tài khoản</string>
+    <string name="text_button_chinhsuataikhoan">Chỉnh sửa</string>
+    <string name="text_button_thoat_xemtaikhoan">Quay lại</string>
+</resources>

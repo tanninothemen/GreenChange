@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_vatdung.DoGD_VatDungActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        app:title="Đồ gia dụng"
+        android:background="@color/color_vatdung_toolbar"
+        app:titleTextColor="@color/color_vatdung_text2"
+        android:id="@+id/toolbarVDDoGD"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/listViewVDDoGD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

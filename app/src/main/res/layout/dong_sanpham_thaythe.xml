@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:background="@drawable/custom_gridview_vatdung_item">
+
+    <ImageView
+        android:id="@+id/imageViewSanPhamThayTheCustom"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/color_sanpham_text"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:text="Tên sản phẩm"
+        android:id="@+id/textViewTenSanPhamThayTheCustom"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_sanpham_toolbar">#66BB6A</color>
+    <color name="maulistviewsanpham">#D59B69</color>
+    <color name="color_login_background">#66BB6A</color>
+    <color name="mautextlogin">#FFE9D5</color>
+    <color name="maubackgroundsignup">#29B6F6</color>
+    <color name="mautextsignup">#FFDB7E</color>
+    <color name="color_toolbar_name">#fff</color>
+    <color name="color_chitietsp_toolbar">#AEDDB1</color>
+    <color name="color_chitietsp_toolbartext">#FFF1E6</color>
+    <color name="color_chitietsp_background">#ECC5DA</color>
+    <color name="color_vatdung_toolbar">#29B6F6</color>
+    <color name="color_vatdung_background">#FFDB7E</color>
+    <color name="color_vatdung_text">#000</color>
+    <color name="color_vatdung_text2">#fff</color>
+    <color name="color_vatdung_strokeimage">#FF6F4D</color>
+    <color name="color_sanpham_background">#FFE9D5</color>
+    <color name="color_sanpham_strokeimage">#D997BB</color>
+    <color name="color_sanpham_text">#000</color>
+    <color name="color_sanpham_text2">#fff</color>
+    <color name="color_chitietvd_toolbar">#FECEAB</color>
+    <color name="color_chitietvd_background">#FFF7E9</color>
+    <color name="color_vatdung_textchatlieu">#7F7E7E</color>
+    <color name="color_sanpham_textchatlieu">#7E7E7E</color>
+    <color name="color_thongtintaikhoan_toolbar">#3fd9ec</color>
+    <color name="color_thongtintaikhoan_background">#FFE09C</color>
+</resources>
