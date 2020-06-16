@@ -33,6 +33,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+//Lê Nhật Duy - tạo giao diện đăng ký đăng nhập và file chỉnh sửa thông tin người dùng
 //Lê Nhật Duy - Đăng ký đăng nhập
     //Biến toàn cục
     ImageButton ibtnLogin, ibtnSignup;
